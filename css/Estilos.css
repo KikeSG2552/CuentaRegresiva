@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+background: #000 url(../Img/bg.jpg);
+background-attachment: fixed;
+background-blend-mode: hard-light;
+}
+
+.container{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background: #ffffff;
+    background: url(../Img/bg.jpg);
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5),
+                0 0 0 100px rgba(0,0,0,.1);
+}
+
+.container h2{
+    font-size: 6em;
+    line-height: 0.7em;
+    color: #c4302b;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.container h2 span{
+    display: block;
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: .9em;
+    margin-top: center;
+    text-align: center;
+}
+
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: #fff;
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+p{
+font-size: 25px;
+text-align: center;
+font-display: center;
+display: flex;
+color:#c4302b;
+}
+
+p.contenedor1{
+	display: flex;
+	align-items: center;
+}
+
+
+.redes-sociales .btn-face-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #3b5998;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-tw-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #00acee;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-insta-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #833AB4;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-yt-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #FF0000;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+
+.redes-sociales .btn-wha-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #25D366;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-face-social:hover {
+    background-color: #000;
+    transition: .4s;
+}
+
+.redes-sociales .btn-tw-social:hover {
+    background-color: #000;
+    transition: .4s;
+}
+
+.redes-sociales .btn-insta-social:hover {
+    background-color: #000;
+    transition: .4s;
+}
+
+.redes-sociales .btn-yt-social:hover {
+    background-color: #000;
+    transition: .4s;
+}
+
+.redes-sociales .btn-wha-social:hover {
+    background-color: #000;
+    transition: .4s;
+}
